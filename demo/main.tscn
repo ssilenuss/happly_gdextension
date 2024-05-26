@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://cnfhcc5lv6w60"]
+[gd_scene load_steps=2 format=3 uid="uid://cnfhcc5lv6w60"]
+
+[ext_resource type="Script" path="res://Splat.gd" id="1_3wt0d"]
 
 [node name="Main" type="Node3D"]
+
+[node name="Splat" type="Node" parent="."]
+script = ExtResource("1_3wt0d")
+ply_file_path = "D:/Github/PLYLoader/demo/point_cloud.ply"
+load_file = true
+get_element_names = true
+get_property_names = true
+get_properties = true
